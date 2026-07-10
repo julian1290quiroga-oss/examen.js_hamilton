@@ -1,0 +1,204 @@
+    [
+        {
+        "id": 1751328600000,
+        "fecha": "2026-07-01T09:10:00.000Z",
+        "cliente": {
+            "identificacion": "1020304050",
+            "nombre": "Laura Pérez",
+            "direccion": "Calle 10 # 20-30",
+            "telefono": "3001234567",
+            "email": "laura.perez@mail.com"
+        },
+        "ciudad": "Bogotá",
+        "items": [{ "eventoId": 1, "cantidad": 1 }],
+        "total": 85000
+        },
+        {
+        "id": 1751342100000,
+        "fecha": "2026-07-01T13:05:00.000Z",
+        "cliente": {
+            "identificacion": "1030405060",
+            "nombre": "Andrés Gómez",
+            "direccion": "Carrera 5 # 8-21",
+            "telefono": "3012345678",
+            "email": "andres.gomez@mail.com"
+        },
+        "ciudad": "Cartagena",
+        "items": [{ "eventoId": 6, "cantidad": 2 }],
+        "total": 70000
+        },
+        {
+        "id": 1751362800000,
+        "fecha": "2026-07-01T18:40:00.000Z",
+        "cliente": {
+            "identificacion": "1040506070",
+            "nombre": "Camila Ruiz",
+            "direccion": "Avenida 6N # 24-15",
+            "telefono": "3023456789",
+            "email": "camila.ruiz@mail.com"
+        },
+        "ciudad": "Cali",
+        "items": [{ "eventoId": 3, "cantidad": 1 }],
+        "total": 60000
+        },
+        {
+        "id": 1751408400000,
+        "fecha": "2026-07-02T07:00:00.000Z",
+        "cliente": {
+            "identificacion": "1050607080",
+            "nombre": "Juan Torres",
+            "direccion": "Calle 100 # 15-60",
+            "telefono": "3034567890",
+            "email": "juan.torres@mail.com"
+        },
+        "ciudad": "Bogotá",
+        "items": [
+            { "eventoId": 4, "cantidad": 1 },
+            { "eventoId": 7, "cantidad": 1 }
+        ],
+        "total": 165000
+        },
+        {
+        "id": 1751437500000,
+        "fecha": "2026-07-02T15:05:00.000Z",
+        "cliente": {
+            "identificacion": "1060708090",
+            "nombre": "Valentina Díaz",
+            "direccion": "Calle 13 # 45-10",
+            "telefono": "3045678901",
+            "email": "valentina.diaz@mail.com"
+        },
+        "ciudad": "Cali",
+        "items": [{ "eventoId": 11, "cantidad": 2 }],
+        "total": 80000
+        },
+        {
+        "id": 1751497800000,
+        "fecha": "2026-07-03T08:10:00.000Z",
+        "cliente": {
+            "identificacion": "1070809010",
+            "nombre": "Carlos Herrera",
+            "direccion": "Carrera 43A # 10-20",
+            "telefono": "3056789012",
+            "email": "carlos.herrera@mail.com"
+        },
+        "ciudad": "Medellín",
+        "items": [{ "eventoId": 2, "cantidad": 1 }],
+        "total": 120000
+        },
+        {
+        "id": 1751524200000,
+        "fecha": "2026-07-03T15:30:00.000Z",
+        "cliente": {
+            "identificacion": "1080901020",
+            "nombre": "Sofía Ramírez",
+            "direccion": "Calle 72 # 11-45",
+            "telefono": "3067890123",
+            "email": "sofia.ramirez@mail.com"
+        },
+        "ciudad": "Bogotá",
+        "items": [{ "eventoId": 8, "cantidad": 3 }],
+        "total": 75000
+        },
+        {
+        "id": 1751587200000,
+        "fecha": "2026-07-04T08:00:00.000Z",
+        "cliente": {
+            "identificacion": "1091021030",
+            "nombre": "Miguel Ángel Castro",
+            "direccion": "Carrera 70 # 33-12",
+            "telefono": "3078901234",
+            "email": "miguel.castro@mail.com"
+        },
+        "ciudad": "Medellín",
+        "items": [{ "eventoId": 12, "cantidad": 1 }],
+        "total": 150000
+        },
+        {
+        "id": 1751623800000,
+        "fecha": "2026-07-04T18:10:00.000Z",
+        "cliente": {
+            "identificacion": "1102132040",
+            "nombre": "Daniela Ortiz",
+            "direccion": "Calle 36 # 20-18",
+            "telefono": "3089012345",
+            "email": "daniela.ortiz@mail.com"
+        },
+        "ciudad": "Bucaramanga",
+        "items": [{ "eventoId": 5, "cantidad": 2 }],
+        "total": 90000
+        },
+        {
+        "id": 1751684400000,
+        "fecha": "2026-07-05T10:20:00.000Z",
+        "cliente": {
+            "identificacion": "1113243050",
+            "nombre": "Felipe Rojas",
+            "direccion": "Avenida San Martín # 5-40",
+            "telefono": "3090123456",
+            "email": "felipe.rojas@mail.com"
+        },
+        "ciudad": "Cartagena",
+        "items": [{ "eventoId": 9, "cantidad": 1 }],
+        "total": 110000
+        },
+        {
+        "id": 1751719200000,
+        "fecha": "2026-07-05T20:00:00.000Z",
+        "cliente": {
+            "identificacion": "1124354060",
+            "nombre": "Isabella Moreno",
+            "direccion": "Calle 26 # 68-90",
+            "telefono": "3101234567",
+            "email": "isabella.moreno@mail.com"
+        },
+        "ciudad": "Bogotá",
+        "items": [
+            { "eventoId": 1, "cantidad": 1 },
+            { "eventoId": 6, "cantidad": 1 }
+        ],
+        "total": 120000
+        },
+        {
+        "id": 1751784600000,
+        "fecha": "2026-07-06T09:30:00.000Z",
+        "cliente": {
+            "identificacion": "1135465070",
+            "nombre": "Santiago Vargas",
+            "direccion": "Carrera 15 # 88-30",
+            "telefono": "3112345678",
+            "email": "santiago.vargas@mail.com"
+        },
+        "ciudad": "Bogotá",
+        "items": [{ "eventoId": 10, "cantidad": 2 }],
+        "total": 110000
+        },
+        {
+        "id": 1751803200000,
+        "fecha": "2026-07-06T14:45:00.000Z",
+        "cliente": {
+            "identificacion": "1146576080",
+            "nombre": "Mariana López",
+            "direccion": "Carrera 43 # 9-50",
+            "telefono": "3123456789",
+            "email": "mariana.lopez@mail.com"
+        },
+        "ciudad": "Medellín",
+        "items": [{ "eventoId": 7, "cantidad": 1 }],
+        "total": 70000
+        },
+        {
+        "id": 1751817600000,
+        "fecha": "2026-07-06T18:40:00.000Z",
+        "cliente": {
+            "identificacion": "1157687090",
+            "nombre": "Nicolás Peña",
+            "direccion": "Calle 63 # 7-25",
+            "telefono": "3134567890",
+            "email": "nicolas.pena@mail.com"
+        },
+        "ciudad": "Bogotá",
+        "items": [{ "eventoId": 4, "cantidad": 1 }],
+        "total": 95000
+        }
+    ]

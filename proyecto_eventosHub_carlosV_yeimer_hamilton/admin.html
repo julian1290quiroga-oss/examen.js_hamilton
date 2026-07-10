@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TuEventoHub — Panel de administrador</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+<!-- ============ LOGIN ============ -->
+<section id="admin-login" class="admin-login">
+  <div class="admin-login-visual">
+    <img src="https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?auto=format&fit=crop&w=1000&q=80" alt="Concierto" />
+  </div>
+  <div class="admin-login-form">
+    <a href="index.html" class="logo"><span class="dot"></span> <img src="assent/imagen/hub.png" alt="logo"></a>
+    <h1>Bienvenido de vuelta 👋</h1>
+    <p class="subtitle">Inicia sesión para acceder al panel de administrador.</p>
+    <form id="login-form">
+      <div class="form-group">
+        <label for="login-email">Correo electrónico</label>
+        <input type="email" id="login-email" placeholder="admin@mail.com" required />
+      </div>
+      <div class="form-group">
+        <label for="login-password">Contraseña</label>
+        <input type="password" id="login-password" placeholder="••••••" required />
+      </div>
+      <p class="error-text" id="login-error" hidden>Correo o contraseña incorrectos.</p>
+      <button type="submit" class="btn btn-primary btn-block">Iniciar sesión</button>
+    </form> <br>
+    <p>© 2026 TuEventoHub. Todos los derechos reservados.</p>
+  </div>
+</section>
+
+<!-- ============ PANEL ADMIN ============ -->
+<div id="admin-shell" class="admin-shell" hidden>
+  <aside class="admin-sidebar"></span> <img src="assent/imagen/hub.png" alt=""></a>
+    <nav class="nav-group">
+      <div class="nav-group-label">Gestión</div>
+      <a href="#/dashboard" class="nav-link" data-route="/dashboard">📊 Dashboard</a>
+      <a href="#/eventos" class="nav-link" data-route="/eventos">🎫 Eventos</a>
+      <a href="#/categorias" class="nav-link" data-route="/categorias">🏷️ Categorías</a>
+      <a href="#/ventas" class="nav-link" data-route="/ventas">💳 Ventas</a>
+      <a href="#/reporte" class="nav-link" data-route="/reporte">📈 reporte</a>
+    </nav>
+    <button class="nav-link logout" id="btn-logout" type="button">🚪 Cerrar sesión</button>
+  </aside>
+
+  <div class="admin-main">
+    <header class="admin-topbar">
+      <h1 id="admin-page-title">Dashboard</h1>
+      <div class="header-actions">
+        <span class="btn-icon" title="Administrador">👤</span>
+      </div>
+    </header>
+
+    <div class="admin-content">
+
+      <!-- VISTA: DASHBOARD -->
+      <section id="admin-view-dashboard" class="view">
+        <div class="stats-grid">
+          <div class="stat-card blue"><div class="label">Total eventos</div><div class="value" id="stat-eventos">0</div></div>
+          <div class="stat-card green"><div class="label">Categorías</div><div class="value" id="stat-categorias">0</div></div>
+          <div class="stat-card purple"><div class="label">Ventas totales</div><div class="value" id="stat-ventas">$0</div></div>
+          <div class="stat-card orange"><div class="label">Pedidos</div><div class="value" id="stat-pedidos">0</div></div>
+        </div>
+        <div class="dashboard-grid">
+          <div class="panel">
+            <div class="panel-head"><h3>Ventas (últimos pedidos)</h3></div>
+            <svg id="ventas-chart" viewBox="0 0 560 180"></svg>
+          </div>
+          <div class="panel">
+            <div class="panel-head"><h3>Eventos recientes</h3></div>
+            <div class="recent-list" id="recent-eventos-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VISTA: EVENTOS -->
+      <section id="admin-view-eventos" class="view" hidden>
+        <div class="table-toolbar">
+          <input type="text" id="eventos-search" placeholder="Buscar evento por nombre o código..." />
+          <button class="btn btn-primary" id="btn-nuevo-evento">+ Nuevo evento</button>
+        </div>
+        <table class="data-table">
+          <thead><tr><th>Código</th><th>Imagen</th><th>Nombre</th><th>Categoría</th><th>Ciudad</th><th>Fecha</th><th>Precio</th><th>Acciones</th></tr></thead>
+          <tbody id="eventos-tbody"></tbody>
+        </table>
+      </section>
+
+      <!-- VISTA: CATEGORÍAS -->
+      <section id="admin-view-categorias" class="view" hidden>
+        <div class="table-toolbar">
+          <input type="text" id="categorias-search" placeholder="Buscar categoría..." />
+          <button class="btn btn-primary" id="btn-nueva-categoria">+ Nueva categoría</button>
+        </div>
+        <div class="eventos-grid cols-3" id="categorias-grid"></div>
+      </section>
+
+      <!-- VISTA: VENTAS -->
+      <section id="admin-view-ventas" class="view" hidden>
+        <div class="table-toolbar">
+          <input type="text" id="ventas-search" placeholder="Buscar por cliente o ciudad..." />
+        </div>
+        <table class="data-table">
+          <thead><tr><th>Pedido</th><th>Fecha</th><th>Cliente</th><th>Ciudad</th><th>Ítems</th><th>Total</th><th>Detalle</th></tr></thead>
+          <tbody id="ventas-tbody"></tbody>
+        </table>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+<!-- ============ MODALES ============ -->
+<div id="modal-root"></div>
+<div id="toast" class="toast"></div>
+
+<script src="js/storage.js"></script>
+<script src="js/data-seed.js"></script>
+<script src="js/components.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

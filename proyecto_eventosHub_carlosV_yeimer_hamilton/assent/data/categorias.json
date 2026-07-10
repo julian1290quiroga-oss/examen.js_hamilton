@@ -1,0 +1,9 @@
+[
+    { "id": 1, "nombre": "Conciertos", "descripcion": "Eventos musicales en vivo" },
+    { "id": 2, "nombre": "Deportes", "descripcion": "Eventos deportivos y competencias" },
+    { "id": 3, "nombre": "Teatro", "descripcion": "Obras y presentaciones teatrales" },
+    { "id": 4, "nombre": "Arte y Cultura", "descripcion": "Exposiciones, museos y cultura" },
+    { "id": 5, "nombre": "Gastronomía", "descripcion": "Ferias y experiencias gastronómicas" },
+    { "id": 6, "nombre": "Conferencias", "descripcion": "Charlas, talleres y encuentros profesionales" },
+    { "id": 7, "nombre": "Fiestas", "descripcion": "Fiestas temáticas y vida nocturna" }
+]

@@ -1,0 +1,74 @@
+    [
+        {
+        "id": 1, "codigo": "EVT-0001", "nombre": "Concierto de Rock en Vivo", "categoriaId": 1,
+        "precio": 85000, "fecha": "2026-08-24", "hora": "20:00", "ciudad": "Bogotá",
+        "imagen": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=800&q=80",
+        "descripcion": "Disfruta de una noche llena de la mejor música en vivo con las bandas más destacadas del rock nacional e internacional."
+        },
+        {
+        "id": 2, "codigo": "EVT-0002", "nombre": "Final del Campeonato", "categoriaId": 2,
+        "precio": 120000, "fecha": "2026-08-28", "hora": "18:00", "ciudad": "Medellín",
+        "imagen": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=80",
+        "descripcion": "La gran final del torneo local. Vive la emoción del deporte en un ambiente único junto a miles de aficionados."
+        },
+        {
+        "id": 3, "codigo": "EVT-0003", "nombre": "Obra: Sueños", "categoriaId": 3,
+        "precio": 60000, "fecha": "2026-09-02", "hora": "19:30", "ciudad": "Cali",
+        "imagen": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=800&q=80",
+        "descripcion": "Una puesta en escena que explora los límites entre la realidad y los sueños, con un elenco reconocido nacionalmente."
+        },
+        {
+        "id": 4, "codigo": "EVT-0004", "nombre": "Festival de Música Indie", "categoriaId": 1,
+        "precio": 95000, "fecha": "2026-09-07", "hora": "16:00", "ciudad": "Bogotá",
+        "imagen": "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?auto=format&fit=crop&w=800&q=80",
+        "descripcion": "Un festival al aire libre con las bandas indie más prometedoras del momento, food trucks y zonas de descanso."
+        },
+        {
+        "id": 5, "codigo": "EVT-0005", "nombre": "Conferencia de Emprendimiento", "categoriaId": 6,
+        "precio": 45000, "fecha": "2026-06-15", "hora": "10:00", "ciudad": "Bucaramanga",
+        "imagen": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=800&q=80",
+        "descripcion": "Expertos en negocios comparten estrategias clave para escalar startups en Latinoamérica."
+        },
+        {
+        "id": 6, "codigo": "EVT-0006", "nombre": "Feria Gastronómica", "categoriaId": 5,
+        "precio": 35000, "fecha": "2026-06-22", "hora": "12:00", "ciudad": "Cartagena",
+        "imagen": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80",
+        "descripcion": "Recorre los sabores de la región de la mano de los mejores chefs y restaurantes locales."
+        },
+        {
+        "id": 7, "codigo": "EVT-0007", "nombre": "Noche de Jazz", "categoriaId": 1,
+        "precio": 70000, "fecha": "2026-07-18", "hora": "21:00", "ciudad": "Medellín",
+        "imagen": "https://images.unsplash.com/photo-1415201364774-f6f0bb35f28f?auto=format&fit=crop&w=800&q=80",
+        "descripcion": "Una velada íntima con los mejores exponentes del jazz contemporáneo en un escenario acústico."
+        },
+        {
+        "id": 8, "codigo": "EVT-0008", "nombre": "Exposición de Arte Moderno", "categoriaId": 4,
+        "precio": 25000, "fecha": "2026-07-25", "hora": "11:00", "ciudad": "Bogotá",
+        "imagen": "https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=800&q=80",
+        "descripcion": "Una colección itinerante de artistas contemporáneos latinoamericanos, curada especialmente para la ciudad."
+        },
+        {
+        "id": 9, "codigo": "EVT-0009", "nombre": "Fiesta de Fin de Año", "categoriaId": 7,
+        "precio": 110000, "fecha": "2026-12-31", "hora": "22:00", "ciudad": "Cartagena",
+        "imagen": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=800&q=80",
+        "descripcion": "Recibe el año nuevo frente al mar con DJs en vivo, fuegos artificiales y barra libre."
+        },
+        {
+        "id": 10, "codigo": "EVT-0010", "nombre": "Maratón de la Ciudad", "categoriaId": 2,
+        "precio": 55000, "fecha": "2026-09-14", "hora": "06:00", "ciudad": "Bogotá",
+        "imagen": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=800&q=80",
+        "descripcion": "Corre por las principales avenidas de la ciudad en una jornada deportiva para toda la familia."
+        },
+        {
+        "id": 11, "codigo": "EVT-0011", "nombre": "Stand Up Comedy Night", "categoriaId": 3,
+        "precio": 40000, "fecha": "2026-07-30", "hora": "20:30", "ciudad": "Cali",
+        "imagen": "https://images.unsplash.com/photo-1585699324551-f6c309eedeca?auto=format&fit=crop&w=800&q=80",
+        "descripcion": "Los comediantes más divertidos del país se reúnen para una noche de risas garantizadas."
+        },
+        {
+        "id": 12, "codigo": "EVT-0012", "nombre": "Cumbre Tech Latam", "categoriaId": 6,
+        "precio": 150000, "fecha": "2026-10-05", "hora": "09:00", "ciudad": "Medellín",
+        "imagen": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80",
+        "descripcion": "El evento de tecnología más importante de la región, con speakers internacionales y espacios de networking."
+        }
+    ]
